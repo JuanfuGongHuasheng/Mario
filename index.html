@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Mario.css">
+    <script src="Mario.js"></script>
+</head>
+<body>
+<table border="1px" class="controlcenter">
+    <tr><td colspan="3">游戏键盘</td></tr>
+    <tr><td>**</td><td><input type="button" value="↑" onclick="mariomove(0)"/></td><td>**</td></tr>
+    <tr>
+        <td><input type="button" value="←"onclick=" mariomove(3)" /></td><td>**</td>
+        <td><input type="button" value="→" onclick=" mariomove(1)"/></td>
+    </tr>
+    <tr><td>**</td><td><input type="button" value="↓"onclick="mariomove(2)"/></td><td>**</td></tr>
+
+</table>
+<div class="gamediv">
+    <img id="mymario" style="width:50px;left:0px;top:0px;position: absolute" src="1.JPG"/>
+</div>
+</body>
+</html>
